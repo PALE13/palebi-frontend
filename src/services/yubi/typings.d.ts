@@ -98,7 +98,7 @@ declare namespace API {
     goal?: string;
     id?: number;
     isDelete?: number;
-    name?: string;
+    chartName?: string;
     updateTime?: string;
     userId?: number;
   };
@@ -107,7 +107,7 @@ declare namespace API {
     chartData?: string;
     chartType?: string;
     goal?: string;
-    name?: string;
+    chartName?: string;
   };
 
   type ChartEditRequest = {
@@ -115,7 +115,7 @@ declare namespace API {
     chartType?: string;
     goal?: string;
     id?: number;
-    name?: string;
+    chartName?: string;
   };
 
   type ChartQueryRequest = {
@@ -123,7 +123,7 @@ declare namespace API {
     current?: number;
     goal?: string;
     id?: number;
-    name?: string;
+    chartName?: string;
     pageSize?: number;
     sortField?: string;
     sortOrder?: string;
@@ -139,7 +139,7 @@ declare namespace API {
     goal?: string;
     id?: number;
     isDelete?: number;
-    name?: string;
+    chartName?: string;
     updateTime?: string;
   };
 
@@ -150,7 +150,7 @@ declare namespace API {
   type genChartByAiUsingPOSTParams = {
     chartType?: string;
     goal?: string;
-    name?: string;
+    chartName?: string;
   };
 
   type getChartByIdUsingGETParams = {
